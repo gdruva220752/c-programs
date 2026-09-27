@@ -1,0 +1,14 @@
+/* Checks if a number is odd or even. */
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{ int num;
+  printf("enter number");
+  scanf("%d",&num);
+  if (num % 2 ==0){
+    printf("even");}
+  else
+    {printf("odd");}
+    return 0;
+}
